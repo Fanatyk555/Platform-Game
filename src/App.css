@@ -1,0 +1,150 @@
+.myContainer {
+  width: 100%;
+  height: 100vh;
+	max-height: 100vh;
+  position: relative;
+  background: yellow;
+}
+.ground{
+  width: 700px;
+  height: 100px;
+  position: absolute;
+  background: rgb(18, 143, 18);
+}
+.block{
+  position: absolute;
+  width:50px;
+  height:50px;
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+.enemy{
+  width: 52px;
+  height: 88px;
+  display: block;
+  position: absolute;
+  border: 2px solid red;
+}
+.HP{
+  position: absolute;
+  height: 5px;
+  left: 0px;
+  top: -15px;
+  border: 2px solid black;
+  background-color: red;
+}
+.HPbar{
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  left: 0px;
+  top: -15px;
+  border: 2px solid black;
+  background-color: black;
+}
+.enemy .b{
+  background-color: rgb(194, 20, 101);
+  border: 2px solid rgb(194, 20, 101);;
+}
+.bullet{
+  position: absolute;
+  width:10px;
+  height:10px;
+  border-radius: 100%;
+  background-color: red;
+}
+.heroHitbox {
+  width: 52px;
+  height: 88px;
+  display: block;
+  position: absolute;
+  border: 2px solid green;
+}
+.head {
+  width: 10px;
+  height: 20px;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 18px;
+}
+.torso {
+  width: 6px;
+  height: 30px;
+  border: 3px solid black;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.leftleg {
+  width: 3px;
+  height: 30px;
+  border: 3px solid black;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  transform: rotate(12deg);
+  transform-origin: top;
+}
+
+.rightleg {
+  width: 3px;
+  height: 30px;
+  border: 3px solid black;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 23px;
+  transform: rotate(-12deg);
+  transform-origin: top;
+}
+.leftarm {
+  width: 20px;
+  height: 3px;
+  border: 3px solid black;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  transform: rotate(-30deg);
+}
+.rightarm {
+  width: 20px;
+  height: 3px;
+  border: 3px solid black;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  transform: rotate(30deg);
+}
+.leftfoot {
+  width: 10px;
+  height: 2px;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 6px;
+}
+.rightfoot {
+  width: 10px;
+  height: 2px;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
